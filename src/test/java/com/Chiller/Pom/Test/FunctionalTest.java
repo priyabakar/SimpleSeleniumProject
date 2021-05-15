@@ -35,7 +35,8 @@ public class FunctionalTest {
 		driver = SeleniumWebDriverUtil.getDriver();		
 	}
 
-
+//functional reportInit
+	
 	@BeforeTest
 	public void reportInit() {
 		ExtendReport EXtndRpot = new ExtendReport();

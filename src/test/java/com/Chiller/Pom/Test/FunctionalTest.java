@@ -29,7 +29,7 @@ public class FunctionalTest {
 	protected static WebDriver driver;
 
 
-
+//functional test setup
 	@BeforeClass
 	public void setup() {
 		driver = SeleniumWebDriverUtil.getDriver();		
